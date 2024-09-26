@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12vh;
+}
+
+h1:first-child{
+    font-size: 3rem;
+}
+
+h1:last-child,
+h3, 
+input,
+button{
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+button{
+    background-color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+}
